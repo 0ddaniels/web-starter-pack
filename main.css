@@ -1,0 +1,40 @@
+/*Will able to everything as a default*/
+body{
+
+}
+
+/*IDs in css begin with a hashtag*/
+#idname{
+}
+
+
+}
+
+
+/*CLASSES in css begin with a dot*/
+.classname{
+}
+
+.big{
+    height: 500px;
+    width: 300px;
+}
+.small{
+    height: 100px;
+    width: 300px;
+}
+.top{
+    background-color: gray;
+}
+.mid1{
+    background-color: darkred;
+}
+.mid2{
+    background-color: blue;
+}
+.mid3{
+    background-color: limegreen;
+}
+.bottom{
+    background-color: black;
+}
