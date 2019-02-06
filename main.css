@@ -36,10 +36,52 @@ body{
     background-color: limegreen;
 }
 .bottom{
+    float: left;
     background-color: black;
 }
 
 .full{
     height: 100px;
     width: 100%;
+}
+._50part1{
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-color: blueviolet;
+}
+
+._50part2{
+    float: right;
+    height: 200px;
+    width: 50%;
+    background-color: chartreuse;
+}
+
+._25part1{
+    float: left;
+    height: 200px;
+    width: 25%;
+    background-color: blueviolet;
+}
+
+._75part2{
+    float: right;
+    height: 200px;
+    width: 75%;
+    background-color: chartreuse;
+}
+
+._67part1{
+    float: left;
+    height: 200px;
+    width: 66.66%;
+    background-color: blueviolet;
+}
+
+._33part2{
+    float: right;
+    height: 200px;
+    width: 33.33%;
+    background-color: chartreuse;
 }
