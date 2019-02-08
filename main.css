@@ -93,7 +93,6 @@ body{
     height: 100%;
     width: 100%;
     background-color: gray;
-    box-align: center;
 }
 
 .white{
@@ -102,11 +101,32 @@ body{
     padding: 8px;
     border: 8px;
     border-radius: 4px;
-    align-items: center;
-    margin: 8px;
+    margin: 8px auto;
 }
 
 .heading{
     text-align: center;
 
+}
+
+.content{
+    width: 75%;
+    height: auto;
+    background-color: white;
+    padding: 8px;
+    border: 8px;
+    border-radius: 4px;
+    margin: 8px;
+    float: left;
+}
+
+.ad{
+    width: 15%;
+    height: 100%;
+    background-color: blue;
+    padding: 8px;
+    border: 8px;
+    border-radius: 4px;
+    margin: 8px;
+    float: left;
 }
