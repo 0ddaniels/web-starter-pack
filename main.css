@@ -93,6 +93,7 @@ body{
     height: 100%;
     width: 100%;
     background-color: gray;
+    box-align: center;
 }
 
 .white{
@@ -101,12 +102,11 @@ body{
     padding: 8px;
     border: 8px;
     border-radius: 4px;
-    box-align: center;
+    align-items: center;
+    margin: 8px;
 }
 
 .heading{
     text-align: center;
 
-}
-.latin{
 }
