@@ -110,7 +110,7 @@ body{
 }
 
 .content{
-    width: 75%;
+    width: 50%;
     height: auto;
     background-color: white;
     padding: 8px;
@@ -120,7 +120,17 @@ body{
     float: left;
 }
 
-.ad{
+.rtside{
+    width: 15%;
+    height: 100%;
+    background-color: blue;
+    padding: 8px;
+    border: 8px;
+    border-radius: 4px;
+    margin: 8px;
+    float: right;
+}
+.lfside{
     width: 15%;
     height: 100%;
     background-color: blue;
@@ -129,4 +139,17 @@ body{
     border-radius: 4px;
     margin: 8px;
     float: left;
+}
+html {
+    height:100%;
+}
+.smallad{
+    height:80px;
+    width: 84%;
+    margin: 8px 8px 32px 8px;
+    padding:8px;
+    border:4px;
+    border-radius:4px;
+    background-color: pink;
+    float: right;
 }
